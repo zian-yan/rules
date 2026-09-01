@@ -2,7 +2,10 @@
   "version": 2,
   "rules": [
     {
-      "domain": "o4504926511693824.ingest.sentry.io",
+      "domain": [
+        "o4504926511693824.ingest.sentry.io",
+        "o4504926511693824.ingest.us.sentry.io"
+      ],
       "domain_suffix": [
         "pikpax.net",
         "mypikpak.com",
