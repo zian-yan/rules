@@ -1,0 +1,454 @@
+/* =========================================================
+   Jellyfin 12.2 - Icon Metadata
+   图标统一改用 raw.githubusercontent.com
+   避免 cdn.jsdelivr.net 无法访问
+   ========================================================= */
+
+/* ---------- 基础 ---------- */
+
+.itemExternalLinks a[href*="hikka.io"],
+.itemExternalLinks a[href*="bgm.tv"],
+.itemExternalLinks a[href*="anidb.net"],
+.itemExternalLinks a[href*="anilist.co"],
+.itemExternalLinks a[href*="anisearch.com"],
+.itemExternalLinks a[href*="books.google.com"],
+.itemExternalLinks a[href*="comicvine.gamespot.com"],
+.itemExternalLinks a[href*="discogs.com"],
+.itemExternalLinks a[href*="movie.douban.com"],
+.itemExternalLinks a[href*="www.douban.com/personage"],
+.itemExternalLinks a[href*="imdb.com"],
+.itemExternalLinks a[href*="kinopoisk.ru"],
+.itemExternalLinks a[href*="kitsu.app"],
+.itemExternalLinks a[href*="music.apple.com"],
+.itemExternalLinks a[href*="musicbrainz.org"],
+.itemExternalLinks a[href*="myanimelist.net"],
+.itemExternalLinks a[href*="search.worldcat.org"],
+.itemExternalLinks a[href*="shikimori.one"],
+.itemExternalLinks a[href*="theaudiodb.com"],
+.itemExternalLinks a[href*="themoviedb.org"],
+.itemExternalLinks a[href*="theporndb.net"],
+.itemExternalLinks a[href*="thetvdb.com"],
+.itemExternalLinks a[href*="trakt.tv"],
+.itemExternalLinks a[href*="simkl.com"],
+.itemExternalLinks a[href*="api.simkl.com"],
+.itemExternalLinks a[href*="tvlistings.zap2it.com"],
+.itemExternalLinks a[href*="tvmaze.com"],
+.itemExternalLinks a[href*="vgmdb.net"],
+.itemExternalLinks a[href*="imvdb.com"] {
+    background: none !important;
+    color: transparent !important;
+    padding: 0 !important;
+    font-size: 0 !important;
+}
+
+/* ---------- Hikka ---------- */
+
+.itemExternalLinks a[href*="hikka.io"]::before {
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/hikka/hikka.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- Bangumi ---------- */
+
+.itemExternalLinks a[href*="bgm.tv"]::before {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/bgm_tv.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- AniDB ---------- */
+
+.itemExternalLinks a[href*="anidb.net"]::before {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/anidb/anidb.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- AniList ---------- */
+
+.itemExternalLinks a[href*="anilist.co"]::before {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/anilist/anilist.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- AniSearch ---------- */
+
+.itemExternalLinks a[href*="anisearch.com"]::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/anisearch/anisearch.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- Google Books ---------- */
+
+.itemExternalLinks a[href*="books.google.com"]::before {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/googlebooks/googlebooks.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- ComicVine ---------- */
+
+.itemExternalLinks a[href*="comicvine.gamespot.com"]::before {
+    content: "";
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/comicvine/comicvine.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- Discogs ---------- */
+
+.itemExternalLinks a[href*="discogs.com/artist"]::before {
+    content: "";
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/discogs/discogs-artist.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.itemExternalLinks a[href*="discogs.com/release"]::before {
+    content: "";
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/discogs/discogs-release.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.itemExternalLinks a[href*="discogs.com/master"]::before {
+    content: "";
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/discogs/discogs-master.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- 豆瓣 ---------- */
+
+.itemExternalLinks a[href*="movie.douban.com/subject"]::before,
+.itemExternalLinks a[href*="www.douban.com/personage"]::before {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/douban/douban2.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- IMDb ---------- */
+
+.itemExternalLinks a[href*="imdb.com"]::before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/imdb/imdb.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- KinoPoisk ---------- */
+
+.itemExternalLinks a[href*="kinopoisk.ru"]::before {
+    content: "";
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/kinopoisk/kinopoisk.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- Kitsu ---------- */
+
+.itemExternalLinks a[href*="kitsu.app"]::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/kitsu/kitsu.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- Apple Music ---------- */
+
+.itemExternalLinks a[href*="music.apple.com"]::before {
+    content: "";
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/applemusic/applemusic.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- MusicBrainz ---------- */
+
+.itemExternalLinks a[href*="musicbrainz.org/artist"]::before {
+    content: "";
+    display: inline-block;
+    width: 65px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/musicbrainz/musicbrainz-artist.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.itemExternalLinks a[href*="musicbrainz.org/release-group"]::before {
+    content: "";
+    display: inline-block;
+    width: 65px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/musicbrainz/musicbrainz-release-group.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.itemExternalLinks a[href*="musicbrainz.org/release/"]::before {
+    content: "";
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/musicbrainz/musicbrainz-release.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- MyAnimeList ---------- */
+
+.itemExternalLinks a[href*="myanimelist.net"]::before {
+    content: "";
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/myanimelist/myanimelist.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- WorldCat ---------- */
+
+.itemExternalLinks a[href*="search.worldcat.org"]::before {
+    content: "";
+    display: inline-block;
+    width: 65px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/worldcat/worldcat.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- Shikimori ---------- */
+
+.itemExternalLinks a[href*="shikimori.one"]::before {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/shikimori/shikimori.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- TheAudioDB ---------- */
+
+.itemExternalLinks a[href*="theaudiodb.com/artist"]::before {
+    content: "";
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/theaudiodb/theaudiodb-artist.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.itemExternalLinks a[href*="theaudiodb.com/album"]::before {
+    content: "";
+    display: inline-block;
+    width: 85px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/theaudiodb/theaudiodb-album.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- TMDB ---------- */
+
+.itemExternalLinks a[href*="themoviedb.org/collection"]::before {
+    content: "";
+    display: inline-block;
+    width: 90px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/themoviedb/themoviedb-collection.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.itemExternalLinks a[href*="themoviedb.org"]::before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/themoviedb/themoviedb.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- ThePornDB ---------- */
+
+.itemExternalLinks a[href*="theporndb.net"]::before {
+    content: "";
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/theporndb/theporndb.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- TVDB ---------- */
+
+.itemExternalLinks a[href*="thetvdb.com"]::before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/thetvdb/thetvdb.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- Trakt ---------- */
+
+.itemExternalLinks a[href*="trakt.tv"]::before {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/trakt/trakt.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- Simkl ---------- */
+
+.itemExternalLinks a[href*="api.simkl.com"]::before,
+.itemExternalLinks a[href*="simkl.com"]::before {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/simkl/simkl.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- Zap2it ---------- */
+
+.itemExternalLinks a[href*="tvlistings.zap2it.com"]::before {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/zap2it/zap2it.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- TVmaze ---------- */
+
+.itemExternalLinks a[href*="tvmaze.com"]::before {
+    content: "";
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/tvmaze/tvmaze.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- VGMdb ---------- */
+
+.itemExternalLinks a[href*="vgmdb.net/artist"]::before {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/vgmdb/vgmdb-artist.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.itemExternalLinks a[href*="vgmdb.net/album"]::before {
+    content: "";
+    display: inline-block;
+    width: 75px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/vgmdb/vgmdb-album.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- IMVDb ---------- */
+
+.itemExternalLinks a[href*="imvdb.com"]::before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    background: url("https://raw.githubusercontent.com/Druidblack/jellyfin-icon-metadata/main/icons/imvdb/imvdb.png") center / contain no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* ---------- 防止 Jellyfin 12.2 悬停时覆盖 ---------- */
+
+.itemExternalLinks a[href*="imdb.com"]:hover,
+.itemExternalLinks a[href*="themoviedb.org"]:hover,
+.itemExternalLinks a[href*="movie.douban.com"]:hover,
+.itemExternalLinks a[href*="thetvdb.com"]:hover,
+.itemExternalLinks a[href*="trakt.tv"]:hover,
+.itemExternalLinks a[href*="bgm.tv"]:hover,
+.itemExternalLinks a[href*="anidb.net"]:hover,
+.itemExternalLinks a[href*="anilist.co"]:hover {
+    background: none !important;
+    background-image: none !important;
+    filter: none !important;
+    border-color: transparent !important;
+}
