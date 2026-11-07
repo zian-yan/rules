@@ -1,0 +1,16 @@
+{
+  "rules": [
+    {
+      "domain_suffix": [
+        "5208399.xyz",
+        "steamserver.net",
+        "argotunnel.com",
+        "cftunnel.com",
+        "yylx.win",
+        "tmdb.myvideoplayer.icu",
+        "www.xn--wcv59z.com"
+      ]
+    }
+  ],
+  "version": 5
+}
